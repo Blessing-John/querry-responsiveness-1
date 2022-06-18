@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 70px;
+  background-color: hsl(0, 100%, 74%);
+  background-image: url('bg-intro-desktop.jpg');
+  margin: auto;
+  Font-size: 16px;
+  width: 100%;
+  heig:
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 16px;
+}
+
+.left {
+  margin-top: 15%;
+  padding: 20px;
+  color: white;
+  width: 100%;
+  flex: 50%;
+}
+
+.right {
+  padding: 20px;
+  flex: 50%;
+  width: 100%;
+}
+
+@media screen and (min-width: 1440px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+
+.container {
+  padding: 16px;
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+
+input[type=text],
+input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: 0.5;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.claimbtn {
+  background-color: hsl(154, 59%, 51%);
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.claimbtn:hover {
+  opacity: 1;
+}
+
+a {
+  color: hsl(0, 100%, 74%);
+}
