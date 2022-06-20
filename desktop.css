@@ -37,7 +37,9 @@ body {
     flex-direction: column;
   }
 }
-
+.border{
+  border-color: hsl(246, 25%, 77%);
+}
 
 .container {
   padding: 16px;
